@@ -4,7 +4,7 @@
 package lesson4;
 
 /**
- * A test for class Monom.
+ * This is a test for class Monom.
  * 
  * @author erelsgl
  * @since 2017-11-13
@@ -12,7 +12,7 @@ package lesson4;
 public class TestMonom {
 
 	/**
-	 * This method runs all the tests.
+	 * This is the main method and it runs all the tests.
 	 */
 	public static void main(String[] args) {
 		System.out.println("Start test Monom");
