@@ -60,7 +60,7 @@ public class Monom implements Function {
 	
 	public Monom getDerivative() {
 		if (this.power==0) {
-			return new Monom(1,1);
+			return new Monom(0,0);
 		} else {
 			double newCoefficient = this.coefficient*this.power;
 			int newPower = this.power - 1;
