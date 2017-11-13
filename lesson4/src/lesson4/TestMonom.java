@@ -7,11 +7,12 @@ package lesson4;
  * A test for class Monom.
  * 
  * @author erelsgl
+ * @since 2017-11-13
  */
 public class TestMonom {
 
 	/**
-	 * @param args
+	 * This method runs all the tests.
 	 */
 	public static void main(String[] args) {
 		System.out.println("Start test Monom");
