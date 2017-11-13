@@ -4,14 +4,14 @@
 package lesson4;
 
 /**
- * A test for class Monom.
+ * This is a test for class Monom.
  * 
  * @author erelsgl
  */
 public class TestMonom {
 
 	/**
-	 * @param args
+	 * This is the main method.
 	 */
 	public static void main(String[] args) {
 		System.out.println("Start test Monom");
