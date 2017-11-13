@@ -10,7 +10,7 @@ import java.util.Arrays;
  * 
  * @author erelsgl
  */
-public class Monom {
+public class Monom implements Function {
 	public Monom(double coefficient2, int power2) {
 		this.coefficient = coefficient2;
 		this.power = power2;
@@ -86,6 +86,11 @@ public class Monom {
 	 * @return the value of this monom at point x.
 	 */
 	public double valueAt(double x) {
+		return this.coefficient*Math.pow(x, this.power);		
+	}
+
+	@Override
+	public double apply(double x) {
 		return this.coefficient*Math.pow(x, this.power);		
 	}
 }
