@@ -1,2 +1,2 @@
 # ariel-oop-yom-sheni
-Example repository for oop course
+This is an example repository for oop course.
